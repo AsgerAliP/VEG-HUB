@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+
+body{
+    background-image: url('../images/aq.jpg');
+    background-size: contain;
+}
+.banner {
+    height: 600px;
+    object-fit: cover;
+}
+.banner-content-h{
+    font-weight: 100;
+    font-size: 100px;
+    font-family: Yusei Magic;
+    color: whitesmoke;
+    filter: blur(1px);
+    text-shadow: 10px 10px 1px  rgb(0, 0, 0);
+}
+.nav-head{
+    font-family: Yusei Magic;
+    color: #3f3f3e;
+    font-size: 35px;
+    font-weight: 900;
+    text-shadow: 5px 7px 25px  rgb(0, 0, 0);;
+}
+.banner-content{
+    font-weight: 700;
+    font-size: 25px;
+    color:whitesmoke;
+    filter: blur(0.1px);
+    text-shadow: 10px 10px 10px  rgb(0, 0, 0);;
+}
+.card-shadow {
+    box-shadow: 0 4px 10px 0 rgba(237, 225, 225, 0.2), 0 6px 20px 0 rgba(231, 220, 220, 0.19);
+  }
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-align: center;
+    color: whitesmoke;
+    filter: blur(0.1px);
+}
+
+.card-bg {
+    width: 18rem;
+    height: 40rem;
+    background-image: url('../images/q.jpeg');
+    background-size: cover;
+    color: rgb(176, 188, 188);;
+}
+
+.footer {
+    padding: 50px 15% 20px;
+    background-color: #3f3f3e;
+}
+
+.footer-name {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.copyright-txt {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+.line {
+    color: white;
+}
